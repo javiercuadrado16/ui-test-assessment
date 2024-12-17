@@ -9,6 +9,16 @@
 // ***********************************************
 //
 //
+
+//Enter user data
+Cypress.Commands.add("enterUsername", (username) => {
+    cy.get('[id="form"]').find('input[placeholder="username"]').type(username);
+});
+
+Cypress.Commands.add("enterPassword", (password) => {
+    cy.get('[id="form"]').find('input[placeholder="password"]').type(password);
+});
+
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
 //
