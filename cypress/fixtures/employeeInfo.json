@@ -1,8 +1,56 @@
 {
-    "employee1Location": "Andrew is from Tacoma",
-    "employee2Location": "Nancy is from Seattle",
-    "employee3Location": "Janet is from Kirkland",
-    "employee4Location": "Margaret is from Redmond",
-    "employee5Location": "Steven is from London",
-    "employee6Location": "Laura is from Seattle"
+    "employee1": [
+        {
+            "name": "Andrew",
+            "location": "Andrew is from Tacoma"
+        }
+    ],
+    "employee2": [
+        {
+            "name": "Nancy",
+            "location": "Nancy is from Seattle"
+        }
+    ],
+    "employee3": [
+        {
+            "name": "Janet",
+            "location": "Janet is from Kirkland"
+        }
+    ],
+    "employee4": [
+        {
+            "name": "Margaret",
+            "location": "Margaret is from Redmond"
+        }
+    ],
+    "employee5": [
+        {
+            "name": "Steven",
+            "location": "Steven is from London"
+        }
+    ],
+    "employee6": [
+        {
+            "name": "Laura",
+            "location": "Laura is from Seattle"
+        }
+    ],
+    "employee7": [
+        {
+            "name": "Michael",
+            "location": "Michael is from London"
+        }
+    ],
+    "employee8": [
+        {
+            "name": "Robert",
+            "location": "Robert is from London"
+        }
+    ],
+    "employee9": [
+        {
+            "name": "Anne",
+            "location": "Anne is from"
+        }
+    ]
 }

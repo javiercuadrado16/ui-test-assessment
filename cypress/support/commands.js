@@ -32,6 +32,14 @@ Cypress.Commands.add("viewEmployeeData", () => {
     cy.get('button[id=btn]').click();
 });
 
+Cypress.Commands.add("deployResponsibleEmployee", () => {
+    cy.get('.jqx-tree-grid-collapse-button').click();
+});
+
+Cypress.Commands.add("getEmployeeData", () => {
+    return cy.get('.jqx-listitem-element').children();
+});
+
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
 //
