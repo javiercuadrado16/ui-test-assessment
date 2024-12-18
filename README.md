@@ -7,10 +7,11 @@ Before proceeding, make sure Node.js is installed on your system. To check, open
 node -v
 npm -v
 ```
+For more info, visit: [page to install node](https://nodejs.org/en/download/package-manager)
 
-Clone this repository:
+Clone this repository
 ```sh
-git clone https://github.com/xescuder/ui-test-assessment.git
+git clone https://github.com/javiercuadrado16/ui-test-assessment.git
 ```
 
 While in the same directory as the project, use the following command to install all the necessary dependencies required to run the project:

@@ -19,6 +19,19 @@ Cypress.Commands.add("enterPassword", (password) => {
     cy.get('[id="form"]').find('input[placeholder="password"]').type(password);
 });
 
+//Actions
+Cypress.Commands.add("selectRandom", (selector) => {
+    cy.get(selector).then(($elements) => {
+        const totalElements = $elements.length;
+        const randomIndex = Math.floor(Math.random() * totalElements);
+        cy.wrap($elements[randomIndex]).click();
+    })
+});
+
+Cypress.Commands.add("viewEmployeeData", () => {
+    cy.get('button[id=btn]').click();
+});
+
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
 //
