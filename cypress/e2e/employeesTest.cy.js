@@ -6,6 +6,7 @@ describe('verify employees table functionality', () => {
       employee = employeeLocation;
     });
     cy.visit('./ui-test-assessment/employees.html')
+    cy.checkIfPageIsLoaded()
   })
 
   it('Select a random employee and show its complete data', () => {
